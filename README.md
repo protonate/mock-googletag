@@ -1,6 +1,8 @@
 # mock-googletag
 A basic mock of the googletag object to use in tests if you're testing that sort of thing.
 
+Dependencies are Sinon, Faker and a random number generator utility function (not included). 
+
 ```
 import faker from 'faker';
 import { randomFive } from './fixtures';
